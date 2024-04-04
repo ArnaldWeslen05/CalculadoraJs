@@ -1,0 +1,55 @@
+div.corpo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    }
+    .calculadora{
+        flex-wrap: wrap;
+        display: flex;
+        position: absolute;
+        background-color: rgb(123, 116, 124);
+        width: 350px;
+        height: 450px;
+        border-radius: 20px;
+       
+    }
+    .tela{
+        font-size: large ;
+        color: white;
+        background-color: rgb(157, 158, 158);
+        margin-top: 10px;
+        margin: 10px;
+        width: 380px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    .butoes{
+        display: grid;
+        grid-template-columns: repeat(4, 90px);
+        text-align: center;
+        justify-content: center;
+        margin: 8px;
+    }
+    .btn{
+        text-align: center;
+        justify-content: center;
+        border: 1px solid black;
+        background-color: aliceblue;
+        width: 60px;
+        height: 60px;
+       
+    }
+    .btn:hover{
+        box-shadow: 1px 1px 10px rgb(255, 251, 251);
+    }
+    .simboly{
+        border: 1px solid black;
+        background-color: aliceblue;
+        width: 60px;
+        height: 60px;
+    }
+    .simboly:hover{
+        box-shadow: 1px 1px 10px rgb(255, 251, 251);
+    }
+    

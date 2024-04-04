@@ -10,9 +10,3 @@ const show = (n) =>{
 const calc = () =>{
     t.value = eval(t.value)
 }
-
-
-
-
-
-
